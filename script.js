@@ -18,50 +18,53 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
   {
-    question: "What is the capital of France?",
+    question: "2024-ൽ ഏറ്റവും കൂടുതൽ കളക്ഷൻ നേടിയ മലയാള സിനിമ ഏതാണ്?",
     answers: [
-      { text: "London", correct: false },
-      { text: "Berlin", correct: false },
-      { text: "Paris", correct: true },
-      { text: "Madrid", correct: false },
+      { text: "The Goat Life (ആടുജീവിതം)", correct: false },
+      { text: "Premalu (പ്രേമലു)", correct: false },
+      { text: "Manjummel Boys (മഞ്ഞുമ്മൽ ബോയ്സ്)", correct: true },
+      { text: "Aavesham (ആവേശം)", correct: false },
     ],
   },
   {
-    question: "Which planet is known as the Red Planet?",
+    question: "'Guruvayoor Ambalanadayil' എന്ന സിനിമയുടെ സംവിധായകൻ ആരാണ്?",
     answers: [
-      { text: "Venus", correct: false },
-      { text: "Mars", correct: true },
-      { text: "Jupiter", correct: false },
-      { text: "Saturn", correct: false },
+      { text: "Chidambaram (ചിദംബരം)", correct: false },
+      { text: "Vipin Das (വിപിൻ ദാസ്)", correct: true },
+      { text: "Gireesh A. D. (ഗിരീഷ് എ.ഡി.)", correct: false },
+      { text: "Jithu Madhavan (ജിത്തു മാധവൻ)", correct: false },
     ],
   },
   {
-    question: "What is the largest ocean on Earth?",
+    question:
+      "മോഹൻലാലിനെ നായകനാക്കി ലിജോ ജോസ് പെല്ലിശ്ശേരി സംവിധാനം ചെയ്ത 2024-ലെ സിനിമ ഏതാണ്?",
     answers: [
-      { text: "Atlantic Ocean", correct: false },
-      { text: "Indian Ocean", correct: false },
-      { text: "Arctic Ocean", correct: false },
-      { text: "Pacific Ocean", correct: true },
+      { text: "Malaikottai Vaaliban (മലൈക്കോട്ടൈ വാലിബൻ)", correct: true },
+      { text: "L2: Empuraan (എമ്പുരാൻ)", correct: false },
+      { text: "Neru (നേര്)", correct: false },
+      { text: "Odiyan (ഒടിയൻ)", correct: false },
     ],
   },
   {
-    question: "Which of these is NOT a programming language?",
+    question:
+      "'ഭ്രമയുഗം' എന്ന ഹൊറർ-ത്രില്ലർ സിനിമയിലെ പ്രധാന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?",
     answers: [
-      { text: "Java", correct: false },
-      { text: "Python", correct: false },
-      { text: "Banana", correct: true },
-      { text: "JavaScript", correct: false },
+      { text: "Fahadh Faasil (ഫഹദ് ഫാസിൽ)", correct: false },
+      { text: "Jayasurya (ജയസൂര്യ)", correct: false },
+      { text: "Mammootty (മമ്മൂട്ടി)", correct: true },
+      { text: "Prithviraj Sukumaran (പൃഥ്വിരാജ് സുകുമാരൻ)", correct: false },
     ],
   },
   {
-    question: "What is the chemical symbol for gold?",
+    question:
+      "2024-ൽ റിലീസ് ചെയ്ത 'വരഷങ്ങൾക്കു ശേഷം' (Varshangalkku Shesham) എന്ന സിനിമയുടെ സംവിധായകൻ ആരാണ്?",
     answers: [
-      { text: "Go", correct: false },
-      { text: "Gd", correct: false },
-      { text: "Au", correct: true },
-      { text: "Ag", correct: false },
+      { text: "Vineeth Sreenivasan (വിനീത് ശ്രീനിവാസൻ)", correct: true },
+      { text: "Alphonse Puthren (അൽഫോൺസ് പുത്രൻ)", correct: false },
+      { text: "Basil Joseph (ബേസിൽ ജോസഫ്)", correct: false },
+      { text: "Omar Lulu (ഒമർ ലുലു)", correct: false },
     ],
-  },
+  }, // --- LATEST MALAYALAM MOVIE QUESTIONS END HERE ---
 ];
 
 // QUIZ STATE VARS

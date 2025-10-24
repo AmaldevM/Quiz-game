@@ -61,9 +61,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 100vh;
+  min-height: 100vh;
   padding: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
 }
 
 .container {
@@ -73,7 +81,7 @@ body {
   width: 100%;
   max-width: 600px;
   overflow: hidden;
-  position: relative;
+  position:relative;
   border: 2px solid #d4af37;
 }
 
@@ -90,8 +98,8 @@ body {
 
 /* SCREENS */
 .screen {
-  display: none;
-  padding: 1.5rem;
+  display:none;
+  padding: 4.5rem;
   text-align: center;
 }
 

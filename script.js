@@ -57,6 +57,65 @@ const quizQuestions = [
   },
   {
     question:
+      "തരുൺ മൂർത്തി സംവിധാനം ചെയ്ത്, മോഹൻലാലും ശോഭനയും 20 വർഷങ്ങൾക്ക് ശേഷം വീണ്ടും ഒന്നിക്കുന്ന 2025-ൽ റിലീസ് ചെയ്യുന്ന സിനിമ ഏതാണ്?",
+    answers: [
+      { text: "Vrushabha (വൃഷഭ)", correct: false },
+      { text: "L2: Empuraan (എമ്പുരാൻ)", correct: false },
+      { text: "Thudarum (തുടരും)", correct: true },
+      { text: "Ram (റാം)", correct: false },
+    ],
+  },
+  {
+    question:
+      "നസ്ലെനും മമിത ബൈജുവും വീണ്ടും ഒന്നിക്കുന്ന, ഗിരീഷ് എ.ഡി. സംവിധാനം ചെയ്ത, പ്രണയ ചിത്രം ഏതാണ്?",
+    answers: [
+      { text: "Super Sharanya (സൂപ്പർ ശരണ്യ)", correct: false },
+      { text: "Premalu (പ്രേമലു)", correct: true },
+      {
+        text: "Thanneer Mathan Dinangal (തണ്ണീർ മത്തൻ ദിനങ്ങൾ)",
+        correct: false,
+      },
+      { text: "Manjummel Boys (മഞ്ഞുമ്മൽ ബോയ്സ്)", correct: false },
+    ],
+  },
+  {
+    question:
+      "മലയാളത്തിലെ ഏറ്റവും പുതിയ ബ്ലോക്ക്ബസ്റ്റർ ചിത്രമായ 'ആവേശത്തി'ൽ (Aavesham) ഫഹദ് ഫാസിൽ അവതരിപ്പിച്ച പ്രധാന കഥാപാത്രത്തിൻ്റെ പേര് എന്താണ്?",
+    answers: [
+      { text: "Jayan (ജയൻ)", correct: false },
+      { text: "Ranga (രംഗ)", correct: true },
+      { text: "Dasan (ദാസൻ)", correct: false },
+      { text: "Amban (അമ്പാൻ)", correct: false },
+    ],
+  },
+  {
+    question:
+      "മോഹൻലാലും പ്രിയദർശനും ചേർന്ന് ഒരുക്കിയ 'മരക്കാർ അറബിക്കടലിന്റെ സിംഹം' എന്ന സിനിമയ്ക്ക് ലഭിച്ച ദേശീയ പുരസ്കാരം ഏതാണ്?",
+    answers: [
+      { text: "മികച്ച നടൻ (Best Actor)", correct: false },
+      { text: "മികച്ച തിരക്കഥ (Best Screenplay)", correct: false },
+      {
+        text: "മികച്ച ദേശീയോദ്ഗ്രഥന ചിത്രം (Best Feature Film on National Integration)",
+        correct: false,
+      },
+      { text: "മികച്ച ഫീച്ചർ ചിത്രം (Best Feature Film)", correct: true },
+    ],
+  },
+  {
+    question:
+      "മോഹൻലാൽ, മീന, പൃഥ്വിരാജ്, കല്യാണി പ്രിയദർശൻ എന്നിവർ പ്രധാന വേഷങ്ങളിൽ അഭിനയിച്ച, പൃഥ്വിരാജ് സംവിധാനം ചെയ്ത കുടുംബചിത്രം ഏതാണ്?",
+    answers: [
+      { text: "Lucifer (ലൂസിഫർ)", correct: false },
+      { text: "Bro Daddy (ബ്രോ ഡാഡി)", correct: true },
+      { text: "Neru (നേര്)", correct: false },
+      {
+        text: "Ittimani: Made in China (ഇട്ടിമാണി: മെയ്ഡ് ഇൻ ചൈന)",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question:
       "2024-ൽ റിലീസ് ചെയ്ത 'വരഷങ്ങൾക്കു ശേഷം' (Varshangalkku Shesham) എന്ന സിനിമയുടെ സംവിധായകൻ ആരാണ്?",
     answers: [
       { text: "Vineeth Sreenivasan (വിനീത് ശ്രീനിവാസൻ)", correct: true },
